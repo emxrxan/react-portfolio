@@ -12,7 +12,7 @@ export default function Header() {
             <a href="mailto:emirgurk@gmail.com" className='icon'><BiLogoGmail /></a>
         </div>
         <div className="nav">
-            <Link to={'/'}>Home</Link>
+            <Link to={'/react-portfolio/'}>Home</Link>
             <Link to={'/Projects'}>Projects</Link>
         </div>
     </header>

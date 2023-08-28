@@ -19,7 +19,7 @@ function App() {
       <context.Provider value={{detail, setDetails, showDetail, setShowDetail}}>
         
         <Routes>
-          <Route index element={<Home />}/>
+          <Route path="/react-portfolio/" element={<Home />}/>
           <Route path="/Projects" element={<Projects />}/>
         </Routes>
 
