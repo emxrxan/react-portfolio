@@ -1,0 +1,43 @@
+.bild{
+    position: relative;
+    width: 227px;
+    height: 227px;
+    overflow: hidden;
+    border: 1px solid var(--beton);
+}
+
+.bildContent{
+    width: 100%;
+    height: 77px;
+    padding: 0.5rem;
+    position: absolute;
+    top: 227px;
+    left: 0;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #00000068;
+    transition: top 1s;
+}
+.bild:hover{cursor: pointer;}
+.bild:hover .bildContent{
+    top: 150px;
+    transition: top 0.5s;
+}
+
+.bildcontainer{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+}
+
+.bildcontainer::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 2rem;
+}

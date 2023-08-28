@@ -1,0 +1,16 @@
+.homeContainer{
+    width: 100%;
+    height: 92%;
+    background-color: var(--background);
+    overflow-y: scroll;
+}
+
+.homeContainer::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 2rem;
+}
+
+.homeContainer::-webkit-scrollbar{width: 0;}

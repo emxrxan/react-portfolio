@@ -1,0 +1,20 @@
+.decribe{
+    background-color: var(--beton);
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.detailContent > h1{
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+
+@media (max-width:425px) {
+    .decribe{flex-direction: column;}
+}

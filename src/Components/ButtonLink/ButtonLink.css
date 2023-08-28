@@ -1,0 +1,35 @@
+.buttonLink{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 5px solid var(--beton);
+}
+
+.buttonLink > a{
+    color: var(--color);
+    font-size: 2rem;
+    text-decoration: none;
+    border: 2px solid var(--color);
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.buttonLink > a:hover{
+    background-color: var(--color);
+    color: #fff;
+}
+
+.buttonLink > a:active{
+    background-color: var(--beton);
+}
+
+@media (max-width:500px) {
+    .buttonLink > a{
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,19 @@
+#html{color:        #FF5722;}
+#css{color:         #25A1E1;}
+#javascript{color:  #F7DF1E;}
+#react{color:       #66DBFB;}
+#git{color:         #DF4B33;}
+
+.iconSize{
+    font-size: 6rem;
+}
+
+.skillContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}

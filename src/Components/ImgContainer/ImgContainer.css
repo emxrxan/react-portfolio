@@ -1,0 +1,15 @@
+.imgContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: scroll;
+    background-color: var(--beton);
+    padding: 1rem;
+}
+
+.imgContainer > img{
+    width: 300px;
+    height: auto;
+}

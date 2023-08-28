@@ -1,0 +1,41 @@
+.projectButton{
+    padding: 2rem;
+    padding-bottom: 2rem;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.projectButton > button{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    border: 2px solid var(--color);
+    color: var(--color);
+    font-weight: bold;
+}
+
+.projectButton > button:hover{
+    background-color: var(--color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.projectButton > button:active{
+    background-color: var(--beton);
+}
+
+@media (max-width:580px) {
+    .projectButton{
+        width: 95%;
+        gap: 1rem;
+    }
+
+    .projectButton > button{
+        font-size: 0.8rem;
+    }
+}

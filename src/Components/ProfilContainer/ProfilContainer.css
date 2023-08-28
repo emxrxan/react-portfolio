@@ -1,0 +1,11 @@
+.profil{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 5rem;
+}
+
+.beton{color: var(--beton); font-weight: bold;}
