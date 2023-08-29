@@ -14,8 +14,11 @@ export default function ProjectBild(props) {
 
   return (
     <div className='bildcontainer'>
+      
       {props.list.map((element) => {
-        return <div className='bild' style={{backgroundImage: `URL(../img/${element.backgroundImg})`}} onClick={() => changeDetail(element)} key={element.title}>
+        return <div className='bild' onClick={() => changeDetail(element)} key={element.title}>
+                  <img src={`${process.env.PUBLIC_URL}/img/${element.backgroundImg}`} alt="notFound" />
+
                 <div className="bildContent">
                   <span>{element.title}</span>
                 </div>
